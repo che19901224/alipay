@@ -1,0 +1,34 @@
+{
+  "name": "ljmm/alipay",
+  "type": "library",
+  "description": "ljmm alipay API PHP Client",
+  "homepage": "https://github.com/che19901224/alipay",
+  "license": "Apache",
+  "authors": [
+	{
+	  "name": "alipay",
+	  "email": "jyche@lejiamama.com",
+	  "homepage": "https://m.lejiamama.com/",
+	  "role": "Developer"
+	}
+  ],
+  "autoload" : {
+	"psr-0":{"jpush":"alipay/"},
+	"files": [
+	  "alipay/lib/alipay_core.function.php",
+	  "alipay/lib/alipay_md5.function.php",
+	  "alipay/lib/alipay_notify.class.php",
+	  "alipay/lib/alipay_submit.class.php",
+	  "alipay/alipay.config.php",
+	  "alipay/alipayapi.php"
+	]
+
+  },
+  "require":{
+	"monolog/monolog":"1.*",
+	"nategood/httpful":"*"
+  },
+  "require-dev": {
+	"phpunit/phpunit": "*"
+  }
+}
