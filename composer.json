@@ -2,7 +2,7 @@
   "name": "ljmm/alipay",
   "type": "library",
   "description": "ljmm alipay API PHP Client",
-  "homepage": "https://github.com/che19901224/alipay",
+  "homepage": "https://github.com/che19901224/alipay.git",
   "license": "Apache",
   "authors": [
 	{
